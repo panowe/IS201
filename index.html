@@ -19,7 +19,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="styles/styles.css" rel="stylesheet" />
-    <link href="mystyles/styles.css" rel="stylesheet" />
+    <link href="styles/mystyles.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -57,24 +57,25 @@
                         <span class="section-heading-upper">You guessed it,</span>
                         <span class="section-heading-lower">This is a school project</span>
                     </h2>
-                    <p class="mb-3 newfont" > This is a practice website to demonstrate HTML and CSS skills for IS201 at BYU.</p>
+                    <p class="mb-3 newfont"> This is a practice website to demonstrate HTML and CSS skills for IS201 at BYU.</p>
                     <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="https://catalog.byu.edu/business/information-systems/introduction-management-information-systems">Learn more about the class here!</a></div>
                 </div>
             </div>
         </div>
     </section>
+    <section>
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
-                    <div class="cta-inner  text-center rounded">
-                        <!--This section is for the embedded video-->
+                    <!--TODO: fix the video width, or honestly just put it back-->
+                    <div class="cta-inner  text-center rounded" style="margin: auto; >
+                        <!--This section is for the embedded video width="940" height="530"-->
                         <iframe width="940" height="530" src="https://www.youtube.com/embed/eUpwDAnkgSM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
                     </div>
                 </div>
             </div>
         </div>
-    <section>
     </section>
     <section class="page-section cta">
         <div class="container">
@@ -85,14 +86,17 @@
                             <span class="section-heading-upper">Send me a</span>
                             <span class="section-heading-lower">message</span>
                         </h2>
-                        <p class="mb-0">Text me at 888.888.8888, or send me an email at thisisnotarealemail@filleremail.com</p>
+                        <p class="mb-0 italicize">Text me at 888.888.8888, or send me an email at thisisnotarealemail@filleremail.com</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <footer class="footer text-faded text-center py-5">
-        <div class="container"><p class="m-0 small"> <a href="#top">Back To Top</a></p></div>
+        <div class="container">
+            <p class="m-0 small bold"> <a href="#top">Back To Top</a></p>
+            <p class="jmodify"> Made by Josh Anderl - All rights reserved</p>
+        </div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

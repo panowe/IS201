@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="../styles/styles.css" rel="stylesheet" />
+    <link href="../styles/mystyles.css" rel="stylesheet" />
 </head>
 <body>
     <header>
@@ -38,8 +39,8 @@
         </div>
     </nav>
     <!--Extra Navbar for quicklinks-->
-    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-        <div class="container" >
+    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" style="background-color: rgb(40 62 41 / 0.30);" id="mainNav">
+        <div class="container " >
             <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Start Bootstrap</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -52,33 +53,6 @@
         </div>
     </nav>
 
-    <!-- TODO: Leaving this here for now just in case my other way doesn't work
-        '
-    <section class="page-section about-heading">
-        <div class="container">
-            <div class="about-heading-content">
-                <div class="row">
-                    <div class="product-item-title d-flex">
-                        <div class="bg-faded rounded p-5">
-                            <h2 class="section-heading mb-4">
-                                <span class="section-heading-upper">Quick</span>
-                                <span class="section-heading-lower">Links</span>-->
-    </h2> <!--TODO: find out how to align these better-->
-    <!--
-    <div class="container">
-        <a href="#edu">Education</a>
-        <a href="#exp">Work Experience</a>
-        <a href="#ski">Skills</a>
-    </div>
-    </ul>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </section>
-
-    -->
     <section class="page-section">
         <div class="container" id="edu">
             <div class="product-item">
@@ -86,7 +60,7 @@
                     <div class="bg-faded p-5 d-flex ms-auto rounded">
                         <h2 class="section-heading mb-0">
                             <span class="section-heading-upper">Enter to learn, go forth to serve</span>
-                            <span class="section-heading-lower">Education</span>
+                            <span class="section-heading-lower rightalign">Education</span>
                         </h2>
                     </div>
                 </div>
@@ -130,7 +104,7 @@
                     <div class="bg-faded p-5 d-flex ms-auto rounded">
                         <h2 class="section-heading mb-0">
                             <span class="section-heading-upper">Let me tell you about my</span>
-                            <span class="section-heading-lower">Skills</span>
+                            <span class="section-heading-lower rightalign">Skills</span>
                         </h2>
                     </div>
                 </div>
@@ -150,16 +124,22 @@
                                 <li>Tableau</li>
                                 <li>HTML, CSS, Bootstrap</li>
                                 <li>Flowchart diagramming</li>
-                                <li>MagicaVoxel voxel modeling and rendering</li>
+                                <li>
+                                    MagicaVoxel voxel modeling and rendering:
+                                    <div class="intro-button mx-auto"><a class="btn btn-primary btn-xl" href="https://www.youtube.com/watch?v=IqJPUiSgoIs&lc=UgwAvZgUvPg_MnUu3pF4AaABAg">Watch one of my tutorials here!</a></div>
+
+                                </li>
                             </ul>
                         </p>
                     </div>
+
                 </div>
+
             </div>
         </div>
     </section>
     <footer class="footer text-faded text-center py-5">
-        <div class="container"><p class="m-0 small"> <a href="#top">Back To Top</a></p></div>
+        <div class="container"><p class="m-0 small bold"> <a href="#top">Back To Top</a></p></div>
     </footer>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
